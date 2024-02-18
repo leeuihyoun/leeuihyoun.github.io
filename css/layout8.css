@@ -1,0 +1,112 @@
+div{
+    border: 1px solid greenyellow;
+}
+.nav li{
+    display: inline-block;
+    width: 60px;
+    background: violet;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+body{
+    margin: 0;
+}
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+text-decoration: none;
+color: blue;
+font-size: 16px;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+}
+
+
+   .back-image{
+       background-image: url(../imges/back.jpg);
+       width: 100%;
+       height: 500px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+   }
+   .image-tit{
+       color: white;
+       font-size: 24px;
+       margin-top: 100px;
+       margin-left: 140px;
+       line-height: 0.1em;
+       transform: skew(-20deg);
+      
+   }
+   .image-title{
+       color: white;
+       font-size: 50px;
+       margin-left: 100px;
+       line-height: 0.1em;
+       
+       
+   }
+   .image-content{
+       color: white;
+       font-size: 20px;
+       margin-left: 150px;
+       
+      
+   }
+   .image-co{
+       margin-left: 135px;
+       border: 1px solid black;
+       width: 100px;
+       padding: 10px;
+       text-align: center;
+   }
+   .image-co a:hover{
+       border: 1px solid black;
+       background-color: green;
+       border-color: green;
+       text-decoration: none;
+       color: white;
+       text-decoration: underline;
+       font-size: 16px;
+   
+   }
+   .tagat{
+       background-color: grey;
+       width: 300px;
+       position: relative; 
+       left: 500px;
+        top:-50px
+   }
+.input-class{
+    width: 200px;
+}
+
+.input-class input{
+    box-sizing: border-box;
+}
+.input-class input[type=text],
+.input-class input[type=number]
+{
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        border: 1px solid purple;
+        border-radius: 15px;
+}
+.component-table{
+    border-collapse: collapse;
+}
+.component-table tr td{
+    border: 1px solid black;
+    border-spacing: 0;
+    width: 200px;
+}

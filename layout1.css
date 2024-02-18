@@ -1,0 +1,46 @@
+
+
+.round-image
+{
+    width: 250px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5000px;
+}
+
+.text-p{
+    text-align: center;
+
+    
+}
+.text-div{
+    color:gray; 
+    font-size:20px;font-family : 궁서체;text-align: center;
+
+}
+.font{
+    color:red;
+    font-weight:bolder;
+    letter-spacing:10px;
+
+}
+.box{
+    background: aquamarine;
+    height: 80px;
+    width: 100px;
+    border: 4px dotted black;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+
+}

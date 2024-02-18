@@ -1,0 +1,23 @@
+.img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius:
+    500000px;
+    float: left;
+
+}
+.img2{
+    width: 270px;
+    height: 200px;
+    float: left;
+}
+.back{
+    width: 30%;
+    float: left;
+}
+.main{
+    width: 40%;
+    height:50%;
+    float: left;
+}
